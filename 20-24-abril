@@ -1,8 +1,0 @@
-Algoritmo
-	A = 0
-	GS = 0	
-	Imprimir "ingresa el monto en DOLARES"
-	Leer A
-	GS = A * 6000
-	Imprimir "valor en GUARANIES",GS
-FinAlgoritmo
