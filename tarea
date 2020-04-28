@@ -1,0 +1,222 @@
+TAREA 1
+1-Ingresa un valor en dólar e imprimir el valor obtenido.Cambio actual 4400gs.
+Algoritmo
+	A = 0
+	GS = 0	
+	Imprimir "ingresa el monto en DOLARES"
+	Leer A
+	GS = A * 6000
+	Imprimir "valor en GUARANIES",GS
+FinAlgoritmo
+
+//EXPLICACION
+//1) Inicia el Algoritmo 
+//2) Inicializa la variable A con el valor 0.
+//3) Inicializa la variable "GS" con el valor de 0.
+//4) Imprime el mensaje "ingresa el monto en DOLARES".
+//5) Solicita quebse cargue un número que sera guardado en la variable A.
+//6) Realiza el cálculo multiplicando lo que ingresó en la variable A por 6000.
+//7) Imprime el mensaje "valor en GUARANIES" y seguidamente el contenido de lo que en ese momento tiene GS.
+//8) Fin del Algoritmo 
+
+
+TAREA 2  
+1-Ingresar un valor en dólar e imprimir el valor convertido en guaraníes(6000) y reales(2,45).
+Algoritmo
+	X = 0; GS = 0; RS = 0;
+	Leer X
+	GS = 6000 * X
+	RS = 2.45 * X
+	Imprimir "la suma en guaranies es",GS
+	Imprimir "la suma en reales es", RS
+FinAlgoritmo
+
+//EXPLICACION
+//1) Inicio del Algoritmo.
+//2) Inicializa con las variables X,GS,RS con el valor de 0.
+//3) Solicita que se cargue un número que sera guardado en la variable X.
+//4) Realiza el cálculo multiplicando 6000 por el valor ingresado en la variable X y cargar el resultado en la variable GS.
+//5) Realiza el siguiente cálculo multiplicando 2.45 por el valor ingresado en la variable X, cargando el resultado en la variable RS.
+//6) Imprime el mensaje "la suma en guaranies es" y seguidamente el contenido que tiene la variable GS.
+//7) Imprime el mensaje " la suma en reales es" y seguidamente el contenido que tiene la variable RS.
+//8) Fin del Algoritmo 
+
+
+TAREA 3
+1-Indica los resultados finales de las variables
+Algoritmo
+	A = 5
+	B = 7
+	Imprimir A,B
+FinAlgoritmo
+//A=5, B=7
+
+2-Indica los valores finales de las variables
+Algoritmo
+	A = 8
+	K = A
+	B = K + 2
+	Imprimir A,B,K
+FinAlgoritmo
+//  RESULTADO:
+// A=8, B=10, K=8
+
+3-Indique los resultados finales.
+Algoritmo
+	A = 8
+	K = 3
+	K = K + 2
+	A = K
+	E = K + 2
+	Imprimir A,K,E
+FinAlgoritmo
+//   RESULTADO:
+// A=5, K=5, E=7
+
+
+TAREA 4
+1-Indique los resultados finales de las variables.
+Algoritmo
+	F = 5
+	G = 1
+	G = G + 1
+	G = G + 1
+	G = 1
+	G = F + 1
+FinAlgoritmo
+// RESULTADO:
+// F=5, G=6
+
+2-Indique los resultados finales de las variables.
+Algoritmo
+	X = 5
+	Z = 6
+	C = X
+	C = X
+	X = X + X
+	Z = Z + X
+FinAlgoritmo
+// RESULTADO:
+// X=10, Z=16, C=5
+
+3-Indique los valores finales de las variables.
+Algoritmo
+	A = 3
+	B = 7
+	C = X
+	A = A
+	A = A + A
+	
+FinAlgoritmo
+//   RESULTADO:
+// A=6, B=7, C=Ø
+
+4-Indica los valores finales de las variables.
+Algoritmo
+	J = 2
+	Z = 1
+	K = J * J
+	M = J * J
+	J = Z
+FinAlgoritmo
+// RESULTADO:
+// J=1, Z=1, K=4, M=4
+
+5-Indica los valores finales de las variables.
+Algoritmo
+ 	Z = 7
+	V = Z
+	V = (V + V) + V
+	V = V
+	H = V + Z
+	X = V * V
+FinAlgoritmo
+//  RESULTADO:
+// Z=7, V=21, H=28, X=441
+
+
+EJERCICIOS
+	1-Leer dos variables, cargarla en una variable X e Z y luego intercambiar sus contenidos.Finalmente imprimir sus resultados.
+Algoritmo
+	X = 0
+	Z = 0
+	C = 0
+	Leer X, Z
+	C = X
+	X = Z
+	Z = C
+	Imprimir X,Z
+FinAlgoritmo
+
+	2-Leer 3 número e imprimir el primer número leido y la suma del primero y el último.
+Algoritmo
+	K = 0
+	L = 0
+	M = 0
+	SUM = 0
+	Leer K,L,M
+	SUM = K + M
+	Imprimir"el primer numero leido es",K
+	Imprimir "la suma del primero y el ultimo",SUM
+FinAlgoritmo
+
+	3-Ingresar 4 valores, sumar el primero con el último y el segundo con el tercero e imprimir el resultado.
+Algoritmo
+	A = 0
+	B = 0
+	C = 0
+	D = 0
+	SUM1 = 0
+	SUM2 = 0
+	Leer A,B,C,D
+	SUM1 = A + D
+	SUM2 = B + C
+	Imprimir "la suma del primero con el ultimo es",SUM1
+	Imprimir "la suma del segundo con el tercero es",SUM2
+FinAlgoritmo
+
+  4-Ingresar la altura y peso de una persona e imprimir el indice de masa corporal del mismo(IMC=peso/(altura)2)
+Algoritmo
+	altura = 0
+	peso = 0
+	IMC = 0
+	Leer altura
+	Leer peso
+	IMC = peso / (altura * altura)
+	Imprimir "el indice de masa corporal es",IMC
+FinAlgoritmo
+
+  5-Cargue los 3 lados de un triángulo e imprima su perimetro (P=L1+L2+L3).
+Algoritmo
+	L1 = 0
+	L2 = 0
+	L3 = 0
+	P = 0
+	Leer L1,L2,L3
+	P = L1 + L2 + L3
+	Imprimir "el perimetro del triangulo es",P
+FinAlgoritmo
+
+  6-Leer dos variables,cargarla en una variable X y Z y luego intercambiar sus contenidos. Finalmente imprimir sus resultados.
+Algoritmo
+	X = 0
+	Z = 0
+	C = 0
+	Leer X,Z
+	C = X
+	X = Z
+	Z = C
+	Imprimir "el contenido intercambiado es",X,Z
+FinAlgoritmo
+
+	7-Dado el radio de un circulo imprima el área (a=Pi*Radio2) y el perimetro (P=2*Pi*Radio), (R=Radio).
+Algoritmo
+	R= 0
+	a = 0
+	P = 0
+	Leer R
+	a = Pi * (R * R)
+	Imprimir "el area del circulo es",a
+	P = 2 * Pi * R
+	Imprimir "el perimetro del circulo es",P
+FinAlgoritmo
